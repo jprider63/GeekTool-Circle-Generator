@@ -10,6 +10,8 @@
 		1AAB2B7017AA164200453A2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AAB2B6F17AA164200453A2D /* Foundation.framework */; };
 		1AAB2B7317AA164200453A2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AAB2B7217AA164200453A2D /* main.m */; };
 		1AAB2B7717AA164200453A2D /* Geeklet_Images.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1AAB2B7617AA164200453A2D /* Geeklet_Images.1 */; };
+		1AAB2B7F17AA24E300453A2D /* GImages.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AAB2B7E17AA24E300453A2D /* GImages.m */; };
+		1AAB2B8117AA262700453A2D /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AAB2B8017AA262700453A2D /* AppKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,8 +31,11 @@
 		1AAB2B6B17AA164200453A2D /* Geeklet Images */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Geeklet Images"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AAB2B6F17AA164200453A2D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1AAB2B7217AA164200453A2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1AAB2B7517AA164200453A2D /* Geeklet Images-Prefix.pch */ = {isa = PBXFileReference; path = "Geeklet Images-Prefix.pch"; sourceTree = "<group>"; };
+		1AAB2B7517AA164200453A2D /* Geeklet Images-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Geeklet Images-Prefix.pch"; sourceTree = "<group>"; };
 		1AAB2B7617AA164200453A2D /* Geeklet_Images.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Geeklet_Images.1; sourceTree = "<group>"; };
+		1AAB2B7D17AA24E300453A2D /* GImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GImages.h; sourceTree = "<group>"; };
+		1AAB2B7E17AA24E300453A2D /* GImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GImages.m; sourceTree = "<group>"; };
+		1AAB2B8017AA262700453A2D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AAB2B8117AA262700453A2D /* AppKit.framework in Frameworks */,
 				1AAB2B7017AA164200453A2D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -48,6 +54,7 @@
 		1AAB2B6017AA164200453A2D = {
 			isa = PBXGroup;
 			children = (
+				1AAB2B8017AA262700453A2D /* AppKit.framework */,
 				1AAB2B7117AA164200453A2D /* Geeklet Images */,
 				1AAB2B6E17AA164200453A2D /* Frameworks */,
 				1AAB2B6C17AA164200453A2D /* Products */,
@@ -76,6 +83,8 @@
 				1AAB2B7217AA164200453A2D /* main.m */,
 				1AAB2B7617AA164200453A2D /* Geeklet_Images.1 */,
 				1AAB2B7417AA164200453A2D /* Supporting Files */,
+				1AAB2B7D17AA24E300453A2D /* GImages.h */,
+				1AAB2B7E17AA24E300453A2D /* GImages.m */,
 			);
 			path = "Geeklet Images";
 			sourceTree = "<group>";
@@ -140,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AAB2B7317AA164200453A2D /* main.m in Sources */,
+				1AAB2B7F17AA24E300453A2D /* GImages.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

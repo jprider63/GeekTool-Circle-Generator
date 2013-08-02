@@ -7,7 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <AppKit/AppKit.h>
 
 @interface GImages : NSObject
-
++(NSImage *) generateImage:(NSInteger) percent;
++(void) writeImage:(NSImage *)img withPercent:(NSInteger) i;
 @end
